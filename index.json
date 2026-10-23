@@ -21,12 +21,22 @@
       },
       "author": "ckyueix",
       "dist-tags": {
-        "latest": "0.1.0"
+        "latest": "0.1.1"
       },
       "versions": [
         {
           "version": "0.1.0",
           "publishTimestamp": 1792737712,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1792766287,
           "source": {
             "type": "npm"
           },
