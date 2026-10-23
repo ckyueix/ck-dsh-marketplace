@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "title": {
+    "en": "CKYUEIX DSH Plugins",
+    "zh": "CKYUEIX DSH 插件"
+  },
+  "description": {
+    "en": "Public DeepSeek Harness plugins published by ckyueix.",
+    "zh": "ckyueix 发布的 DeepSeek Harness 插件。"
+  },
+  "plugins": [
+    {
+      "name": "@ckyueix/glm-usage",
+      "title": {
+        "en": "GLM Usage",
+        "zh": "GLM 用量"
+      },
+      "description": {
+        "en": "Display the current GLM Coding Plan account's five-hour and weekly quota in the DeepSeek Harness composer dock.",
+        "zh": "在 DeepSeek Harness 输入栏显示当前 GLM Coding Plan 账号的 5 小时与每周用量。"
+      },
+      "author": "ckyueix",
+      "dist-tags": {
+        "latest": "0.1.0"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792737712,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
