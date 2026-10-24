@@ -63,13 +63,13 @@
         "zh": "文本模型看图"
       },
       "description": {
-        "en": "Use native image attachments with a confirmed text-only model through explicit visual evidence, with same-session evidence reuse and no automatic retries.",
-        "zh": "让确认的纯文本模型通过视觉文字证据使用原生图片附件，支持同会话证据复用，保持零自动重试。"
+        "en": "Use images with your original text-only models. Choose a vision service once in plugin settings; automatic activation, no YAML or suffix models.",
+        "zh": "纯文本模型直接选择原模型即可看图；安装后自动挂载，在插件界面选择一次视觉服务，无需 YAML 或后缀模型。"
       },
       "author": "ckyueix",
       "homepage": "https://www.npmjs.com/package/@ckyueix/text-model-vision",
       "dist-tags": {
-        "latest": "0.1.0"
+        "latest": "0.2.0"
       },
       "versions": [
         {
@@ -80,6 +80,16 @@
           },
           "engines": {
             "dsh": "0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1792842733,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
           }
         }
       ]
