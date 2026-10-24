@@ -45,6 +45,34 @@
           }
         }
       ]
+    },
+    {
+      "name": "@ckyueix/text-model-vision",
+      "title": {
+        "en": "Text Model Vision",
+        "zh": "文本模型看图"
+      },
+      "description": {
+        "en": "Use native image attachments with a confirmed text-only model through explicit visual evidence, with same-session evidence reuse and no automatic retries.",
+        "zh": "让确认的纯文本模型通过视觉文字证据使用原生图片附件，支持同会话证据复用，保持零自动重试。"
+      },
+      "author": "ckyueix",
+      "homepage": "https://www.npmjs.com/package/@ckyueix/text-model-vision",
+      "dist-tags": {
+        "latest": "0.1.0"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792804909,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.2"
+          }
+        }
+      ]
     }
   ]
 }
