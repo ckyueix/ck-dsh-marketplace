@@ -69,7 +69,7 @@
       "author": "ckyueix",
       "homepage": "https://www.npmjs.com/package/@ckyueix/text-model-vision",
       "dist-tags": {
-        "latest": "0.2.0"
+        "latest": "0.2.1"
       },
       "versions": [
         {
@@ -90,6 +90,16 @@
           },
           "engines": {
             "dsh": "0.2.1-rc.3"
+          }
+        },
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1792852249,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0-0"
           }
         }
       ]
