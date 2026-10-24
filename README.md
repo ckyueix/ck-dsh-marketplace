@@ -9,10 +9,11 @@ An independent, unofficial static plugin market for DeepSeek Harness.
 - **GLM Usage** — `@ckyueix/glm-usage@0.1.0` (DeepSeek Harness `0.2.1-rc.2`).
   Public npm package: https://www.npmjs.com/package/@ckyueix/glm-usage
 
-- **Text Model Vision / 文本模型看图** — `@ckyueix/text-model-vision@0.1.0` (DeepSeek Harness `0.2.1-rc.2`; tested on macOS).
-  Native image attachments and text follow-ups for a confirmed text-only model, using explicitly configured visual evidence.
+- **Text Model Vision / 文本模型看图** — `@ckyueix/text-model-vision@0.2.0` (DeepSeek Harness `0.2.1-rc.3`; tested on macOS).
+  Use images with your original text-only models; installation activates the plugin automatically.
+  Select a vision service once in the plugin settings UI. No YAML, suffix models, or per-model setup.
   Public npm package and configuration: https://www.npmjs.com/package/@ckyueix/text-model-vision
-  Requires a unique plugin insert and vision-service configuration; image descriptions depend on model capability.
+  Same-session visual evidence is reused; image flows have no automatic retries. Recognition quality depends on the selected vision service.
 
 ## Add the market to DeepSeek Harness
 
