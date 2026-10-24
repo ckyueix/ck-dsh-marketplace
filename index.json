@@ -21,7 +21,7 @@
       },
       "author": "ckyueix",
       "dist-tags": {
-        "latest": "0.1.1"
+        "latest": "0.1.2"
       },
       "versions": [
         {
@@ -42,6 +42,16 @@
           },
           "engines": {
             "dsh": "0.2.1-rc.2"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1792832028,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.1-rc.3"
           }
         }
       ]
