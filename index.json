@@ -73,13 +73,13 @@
         "zh": "文本模型看图"
       },
       "description": {
-        "en": "Use images with your original text-only models. Choose a vision service once in plugin settings; automatic activation, no YAML or suffix models.",
-        "zh": "纯文本模型直接选择原模型即可看图；安装后自动挂载，在插件界面选择一次视觉服务，无需 YAML 或后缀模型。"
+        "en": "Use images with your original text-only models. Auto-selects an already-registered vision route (no first-run setup when one exists); manual override and guided setup in plugin settings.",
+        "zh": "纯文本模型直接选择原模型即可看图；已注册的视觉路由自动选用（有路由即免首跑配置），插件设置页可手动覆盖或按引导配置。"
       },
       "author": "ckyueix",
       "homepage": "https://www.npmjs.com/package/@ckyueix/text-model-vision",
       "dist-tags": {
-        "latest": "0.2.1"
+        "latest": "0.2.2"
       },
       "versions": [
         {
@@ -105,6 +105,16 @@
         {
           "version": "0.2.1",
           "publishTimestamp": 1792852249,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+          }
+        },
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1792890047,
           "source": {
             "type": "npm"
           },
