@@ -133,6 +133,83 @@
           }
         }
       ]
+    },
+    {
+      "name": "@ckyueix/openai-usage",
+      "title": {
+        "en": "OpenAI Usage",
+        "zh": "OpenAI 用量"
+      },
+      "description": {
+        "en": "Display the OpenAI Platform month spend, optional budget percentage and per-model completions usage in the DeepSeek Harness composer dock.",
+        "zh": "在 DeepSeek Harness 输入栏显示 OpenAI Platform 当月花费、可选预算百分比与按模型的 completions 用量。"
+      },
+      "author": "ckyueix",
+      "dist-tags": {
+        "latest": "0.1.5"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793252769,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1793254504,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+          }
+        },
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1793255310,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+          }
+        },
+        {
+          "version": "0.1.3",
+          "publishTimestamp": 1793257558,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+          }
+        },
+        {
+          "version": "0.1.4",
+          "publishTimestamp": 1793258540,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+          }
+        },
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1793259265,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.2.2-0"
+          }
+        }
+      ]
     }
   ]
 }
