@@ -21,7 +21,7 @@
       },
       "author": "ckyueix",
       "dist-tags": {
-        "latest": "0.1.6"
+        "latest": "0.1.8"
       },
       "versions": [
         {
@@ -87,6 +87,26 @@
         {
           "version": "0.1.6",
           "publishTimestamp": 1793930372,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.1.7",
+          "publishTimestamp": 1794552245,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.2.3-0"
+          }
+        },
+        {
+          "version": "0.1.8",
+          "publishTimestamp": 1794553289,
           "source": {
             "type": "npm"
           },
